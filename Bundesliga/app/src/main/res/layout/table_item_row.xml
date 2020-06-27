@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:background="@android:color/background_dark"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tv_place"
+        android:text="@string/tv_place_text"
+        android:textSize="14sp"
+        android:paddingVertical="@dimen/table_item_padding_vertical"
+        android:layout_width="35dp"
+        android:layout_marginHorizontal="@dimen/table_row_margin_horizontal"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv_team_name"
+        android:text="@string/tv_team_name_text"
+        android:textSize="14sp"
+        android:paddingVertical="@dimen/table_item_padding_vertical"
+        android:layout_marginHorizontal="@dimen/table_row_margin_horizontal"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv_games"
+        android:text="@string/tv_games_text"
+        android:textSize="14sp"
+        android:paddingVertical="@dimen/table_item_padding_vertical"
+        android:layout_marginHorizontal="@dimen/table_row_margin_horizontal"
+        android:layout_width="35dp"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv_goals"
+        android:text="@string/tv_goals_text"
+        android:textSize="14sp"
+        android:paddingVertical="@dimen/table_item_padding_vertical"
+        android:layout_marginHorizontal="@dimen/table_row_margin_horizontal"
+        android:layout_width="55dp"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv_goal_diff"
+        android:layout_marginHorizontal="@dimen/table_row_margin_horizontal"
+        android:textSize="14sp"
+        android:text="@string/tv_goal_diff_text"
+        android:paddingVertical="@dimen/table_item_padding_vertical"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        tools:ignore="RelativeOverlap" />
+
+    <TextView
+        android:id="@+id/tv_points"
+        android:layout_marginHorizontal="@dimen/table_row_margin_horizontal"
+        android:textSize="14sp"
+        android:paddingVertical="@dimen/table_item_padding_vertical"
+        android:text="@string/tv_points_text"
+        android:layout_width="25dp"
+        android:layout_height="wrap_content" />
+</LinearLayout>

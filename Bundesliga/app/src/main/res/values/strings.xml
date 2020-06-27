@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">BundesligaTabelle</string>
+    <string name="tv_place_text">Pl.</string>
+    <string name="tv_team_name_text">Team</string>
+    <string name="tv_games_text">Gam.</string>
+    <string name="tv_goals_text">Goals</string>
+    <string name="tv_goal_diff_text">Diff.</string>
+    <string name="tv_points_text">Po.</string>
+    <string name="table_title_text">Table</string>
+    <string name="bundesliga_title">Bundesliga</string>
+    <string name="fetch_data_failed">Fetching Data Failed. Please check your internet connection.</string>
+    <string name="bundesliga_2_title">2. Bundesliga</string>
+    <string name="bundesliga_3_title">3. Liga</string>
+    <string name="refresh_menu_title">refresh</string>
+    <string name="menu_item_2_bundesliga_title">2. Bundesliga</string>
+    <string name="menu_item_1_bundesliga_title">Bundesliga</string>
+    <string name="menu_item_3_liga_title">3. Liga</string>
+    <string name="refreshing_toast">Refreshing</string>
+</resources>

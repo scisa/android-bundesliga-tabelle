@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="table_row_margin_horizontal">5dp</dimen>
+    <dimen name="table_item_padding_vertical">10dp</dimen>
+
+<!--    Title-->
+    <dimen name="title_text_size">18sp</dimen>
+    <dimen name="title_margin_vertical">5dp</dimen>
+
+<!--    CardView-->
+    <dimen name="card_view_corner_radius">10dp</dimen>
+    <dimen name="card_view_margin">10dp</dimen>
+
+
+<!--    TextView-->
+    <dimen name="tv_padding">10dp</dimen>
+</resources>
