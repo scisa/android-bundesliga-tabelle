@@ -55,7 +55,7 @@ public class BaseFragment extends Fragment {
         int year = cal.get(Calendar.YEAR);
         int month = cal.get(Calendar.MONTH);
 
-        if (month < 8){
+        if (month < 7){
             year = year - 1;
         }
 
