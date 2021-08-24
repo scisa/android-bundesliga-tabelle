@@ -102,15 +102,15 @@ public class RecyclerTableViewAdapter extends ListAdapter<TableItem, RecyclerTab
         private void colorItemsBundesliga(int place){
             int colorRes;
             if (1 <= place && place <= 4){
-                colorRes = android.R.color.holo_green_dark;
-            } else if (5 <= place && place <= 7){
-                colorRes = android.R.color.holo_green_light;
-            } else if (8 <= place && place <= 15){
-                colorRes = android.R.color.darker_gray;
+                colorRes = R.color.colorTableBgFirst;
+            } else if (5 <= place && place <= 6){
+                colorRes = R.color.colorTableBgSecond;
+            } else if (7 <= place && place <= 15){
+                colorRes = R.color.colorTableBgMiddle;
             } else if (place == 16){
-                colorRes = android.R.color.holo_red_light;
+                colorRes = R.color.colorTableBgRelegation;
             }else {
-                colorRes = android.R.color.holo_red_dark;
+                colorRes = R.color.colorTableBgDescent;
             }
             this.view.setBackgroundResource(colorRes);
         }
@@ -118,15 +118,15 @@ public class RecyclerTableViewAdapter extends ListAdapter<TableItem, RecyclerTab
         private void colorItems2Bundesliga(int place){
             int colorRes;
             if (1 <= place && place <= 2){
-                colorRes = android.R.color.holo_green_dark;
+                colorRes = R.color.colorTableBgFirst;
             } else if (place == 3){
-                colorRes = android.R.color.holo_green_light;
+                colorRes = R.color.colorTableBgSecond;
             } else if (4 <= place && place <= 15){
-                colorRes = android.R.color.darker_gray;
+                colorRes = R.color.colorTableBgMiddle;
             }else if (place == 16){
-                colorRes = android.R.color.holo_red_light;
+                colorRes = R.color.colorTableBgRelegation;
             }else {
-                colorRes = android.R.color.holo_red_dark;
+                colorRes = R.color.colorTableBgDescent;
             }
             this.view.setBackgroundResource(colorRes);
         }
@@ -134,13 +134,13 @@ public class RecyclerTableViewAdapter extends ListAdapter<TableItem, RecyclerTab
         private void colorItems3Liga(int place){
             int colorRes;
             if (1 <= place && place <= 2){
-                colorRes = android.R.color.holo_green_dark;
+                colorRes = R.color.colorTableBgFirst;
             } else if (place == 3){
-                colorRes = android.R.color.holo_green_light;
+                colorRes = R.color.colorTableBgSecond;
             } else if (4 <= place && place <= 16){
-                colorRes = android.R.color.darker_gray;
+                colorRes = R.color.colorTableBgMiddle;
             }else {
-                colorRes = android.R.color.holo_red_dark;
+                colorRes = R.color.colorTableBgDescent;
             }
             this.view.setBackgroundResource(colorRes);
         }

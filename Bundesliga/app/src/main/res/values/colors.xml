@@ -3,4 +3,10 @@
     <color name="colorPrimary">#A20920</color>
     <color name="colorPrimaryDark">#5F020D</color>
     <color name="colorAccent">#FFEB3B</color>
+    <color name="colorTextItemRow">#FFFFFF</color>
+    <color name="colorTableBgFirst">#4A7000</color>
+    <color name="colorTableBgSecond">#79A102</color>
+    <color name="colorTableBgMiddle">#747171</color>
+    <color name="colorTableBgRelegation">#F82D2D</color>
+    <color name="colorTableBgDescent">@android:color/holo_red_dark</color>
 </resources>
